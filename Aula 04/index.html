@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+<body> body
+    <h1>Principais formações</h1>
+    <h2>Negrito/Destaque</h2>
+    <h4>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</h4>
+    <h4>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</h4>
+    <h2>Itálico/Ênfase</h2>
+    <h4>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</h4>
+    <h4>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)</h4>
+    <h2>Texto Marcador</h2>
+    <h4>Aqui vamos usar um texto com destaque <mark style="background-color: aquamarine;"> de marcador de texto </mark> usando mark</h4>
+    <h4>Aqui vamos usar um texto com destaque <mark> de marcador de texto</mark> usando mark</h4>
+    <h2>Texto grande e pequeno</h2>
+    <h4>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</h4>
+    <h2>Texto deletado</h2>
+    <h4>nexte parágrafo vamos trabalhar com um texto <del>que foi excluido</del> da frase (forma semântica)</h4>
+    <h2>Texto Inserido</h2>
+    <h4>Nesta frase vamos demonstrar como <ins> destacar um texto inserido</ins> na frase de forma semântica</h4>
+    <h4>Nesta frase vamos demonstrar como <u> destacar um texto inserido</u> de forma não semântica</h4>
+    <h2>Texto sobrescrito</h2>
+    <h4>Vamos demonstrar uma formúla da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando tag sup</h4>
+    <h2>Texto subescrito</h2>
+    <h4>Vamos demonstrar o texto subecrito com a formúla da água H<sub>2</sub>O</h4>
+    <h2>Texto de código fonte</h2>
+    <h4>inserido o comando <i>document.getElementById('edtCodigo')</i> que é um comando java script</h4>
+    <h4>Inserindo um longo codigo me python:</h4>
+<pre>
+    <code>
+        # Função que calcula f(x) = ax² + bx + c
+
+def funcao_segundo_grau(a, b, c, x):
+    return a * x**2 + b * x + c
+
+    # Entrada de dados
+    a = float(input("Digite o valor de a: "))
+    b = float(input("Digite o valor de b: "))
+    c = float(input("Digite o valor de c: "))
+    x = float(input("Digite o valor de x: "))
+
+    # Cálculo
+    resultado = funcao_segundo_grau(a, b, c, x)
+
+    # Saída
+    print(f"O valor da função f(x) é: {resultado}")
+    </code>
+
+</pre>
+    <h2>Citações (quotation) simples</h2>
+    <h4>Segundo Steve Jobs "A tecnologia move o mundo"</h4>
+    <h2>Citações completas (livros)</h2>
+    <h4>segundo Sandra Kussunoki no seu livro A dança e o ventre:</h4>
+    <blockquote> 
+        Dados existentes sobre intervenlçoes cirúgicas nos corpos contemporâneos visando à obtenção de um corpo 
+        mais próximo do padrão estético tais como lipoaspiração, próteses de silicone, entre outras, comprovam essa
+        busca obsessiva pelo ideal de perfeição, que é baseado principalmente na magreza.
+    </blockquote>
+
+    <h4>ou segundo nossa eterna diva política, Erika Hilton</h4>
+    <blockquote cite="https://pt.wikiquote.org/wiki/Erika_Hilton">
+
+        <p>
+            Não tolerarei.
+        </p>
+
+
+    </blockquote>
+
+    <p> 
+        Aqui sera o exemplo de um parágrafo usando marcação de
+         texto com <mark> cores padrões</mark> e 
+        <mark style="background-color: green;"> com cores alteradas</mark>
+
+    </p>
+
+</body>
+</html>
