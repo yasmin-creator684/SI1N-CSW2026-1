@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Yasmin Cipriano</title>
+    <link rel="icon" href="IMG/favicon-32x32.png">
+</head>
+<body style="background-color: antiquewhite;">
+    <a href="index.html"><img src="IMG/homepage.jpg" alt="Página Inicial" width="55px"></a>
+    <a href="currículo.html"><img src="IMG/Curriculos.png" alt="Currículos_link" width="55px"></a>
+    <a href="Github.html"><img src="IMG/GitGIt.png" alt="Github_link" width="55px"></a>
+    <a href="Serviços.html"><img src="IMG/services.png" alt="Serviços_link" width="55px"></a>
+    <br>
+    <br>
+    <img src="IMG/mais contato.png" border="4" width="600px" alt="foto de contato">
+    <h2>Entre em Contato</h2>
+    <p>Caso tenha se interessado, preencha o formulário abaixo!</p>
+    <h3>Informações de Contato</h3>
+    <p><strong>Localização</strong></p>
+    <p>Vila Velha - ES,Brasil</p>
+    <p><strong>Telefone/WhatsApp</strong></p>
+    <p>(--)xxxxx-xxxx</p>
+    <p><strong>E-mail</strong></p>
+    <p>yasminxxxxxx@xxxxx.com.br</p>
+    <p><strong>Horários de Atendimento</strong></p>
+    <p>Seg a Sex: 7h às 18h</p>
+    <p>Sab: 8h às 14h</p>
+    <br>
+    <a href="https://github.com/yasmin-creator684"> 
+        <img src="IMG/GitGIt.png" width="15px" alt="Link para o GitHub">Github
+    </a>
+    <h2>Solicite seu Orçamento</h2>
+    <p>Preencha os campos abaixo para solicitar um serviço. Entrarei em contato em até 24h.</p>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    <label for="nome">Nome Completo:</label>
+                </th>
+                <th>
+                    <input type="text" required autocomplete="username" name="nome-usuário" id="nome-usuário" size="30"
+                    maxlength="30" value="" placeholder="Digite seu Nome">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="tel">Telefone/WhatsApp:</label>
+                </th>
+                <th>
+                    <input type="tel" required autocomplete="tel" name="Telefone" id="telefone-whatsapp" size="30"
+                    maxlength="15" value="" placeholder="(XX) X XXXX-XXXX">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">E-mail:</label>
+                </th>
+                <th>
+                    <input type="email" required autocomplete="email" name="email" id="email" size="30"
+                    maxlength="50" value="" placeholder="Digite seu Email" >
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="nome">Tipo de Cliente:</label>
+                </th>
+                <th>
+                    <input type="radio" name="pessoa" value="Jurídica"> Pessoa Jurídica
+                    <input type="radio" name="pessoa" value="Física"> Pessoa Física
+                </th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <td>
+                    <label for="nome">Melhor horário para contato:</label>
+                </td>
+                <td>
+                    <select name="horários" size="1">
+                        <option value="">Selecione um horário...</option>
+                        <option value="Manhã">Manhã (7h às 12h)</option>
+                        <option value="Tarde">Tarde (12h às 17h)</option>
+                        <option value="Noite">Noite (18h às 21h)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nome">Tipo de Serviço:</label>
+                </td>
+                <td>
+                    <select name="Serviços" size="1">
+                        <option value=""></option>
+                        <option value="Estático Básico">Site Estático Básico (1 a 2 páginas) - R$350</option>
+                        <option value="Estático Intermediário">Site Estático Intermediário (3 a 5 páginas) - R$700</option>
+                        <option value="Estático Completo">Site Estático Completo (6+ páginas) - R$1.200</option>
+                        <option value="Dinâmico">Site Dinâmico - R$1.500</option>
+                        <option value="Semi-Avançado">Site Semi-Avançado - R$3.000</option>
+                        <option value="Avançado">Site Avançado - R$6.000+</option>
+                        <option value="">Quero um orçamento personalizado</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Segmento de Negócios:</label>
+                </td>
+                <td>
+                    <select name="negócios" size="1">
+                        <option value=""></option>
+                        <option value="Restaurante">Restaurante</option>
+                        <option value="Pet Shops">Pet Shops</option>
+                        <option value="Academias">Acadêmias</option>
+                        <option value="Comércio">Comércio</option>
+                        <option value="">Outros</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Recursos Desejados:</label>
+                    <ul type="none">
+                        <li><input type="checkbox" name="mobile" value="Mobile"> Design para Mobile</li>
+                        <li><input type="checkbox" name="botton" value="button"> Botões para WhatsApp</li>
+                        <li><input type="checkbox" name="formulário" value="formulário"> Formulários</li>
+                        <li><input type="checkbox" name="links" value="link"> Links</li>
+                    </ul>
+                </td>
+                <td>
+                    <label for="nome">Descreva o que precisa:</label>
+                    <br>
+                    <textarea name="descrição" cols="30" rows="5" 
+                        placeholder="Descreva aqui seu negócio, suas necessidades, 
+                        o que precisa contratar e suas referências." required>
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Como me conheceu?</label>
+                </td>
+                <td>
+                    <select name="Como_me_Conheceu" id="Como_me_conheceu" size="1">
+                        <option value=""></option>
+                        <option value="Github">Github</option>
+                        <option value="Indicação">Indicação de Amigo/Familiar</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Google">Google</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="checkbox">Li e concordo com os termos de uso e política de privacidade deste portfólio.
+    <br>
+    <br>
+    <input type="submit" value="Enviar Mensagem">
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <a href="index.html"><img src="IMG/homepage.jpg" alt="Página Inicial" width="55px"></a>
+    <a href="currículo.html"><img src="IMG/Curriculos.png" alt="Currículos_link" width="55px"></a>
+    <a href="Github.html"><img src="IMG/GitGIt.png" alt="Github_link" width="55px"></a>
+    <a href="Serviços.html"><img src="IMG/services.png" alt="Serviços_link" width="55px"></a>
+    
+</body>
+</html>
