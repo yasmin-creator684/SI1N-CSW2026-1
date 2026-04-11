@@ -6,26 +6,139 @@
     <title>Aula 09</title>
 </head>
 <body>
-    <label for=""></label>
-
-
-    <label for="">  </label>
-    <select name="" id="">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-    </select>
+    <h1>Formulário</h1>
     <br>
-    <label for=""></label>
-    <input type="text" id="" name="" value="yes"><br><br><br>
-    <input type="text" id="" name="" value="no"><br><br><br>
     <br>
-    <label for=""></label>
-    <input type="submit" value="">
-    <input type="reset">
-    <input type="button">
-
-
+    <table border="5">
+        <thead>
+            <tr>
+                <th>
+                    <label for="name">Nome:</label>
+                </th>
+                <th><input type="text" name="nome do usuário" id="nome_usuario01" size="40" maxlength="50"
+                    value="" placeholder="Digite o nome do usuário">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">E-mail Pessoal:</label>
+                </th>
+                <th>
+                    <input type="text" name="email" id="email" size="30" value="" placeholder="Informe seu email">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">Email(Patter):</label>
+                </th>
+                <th>
+                    <input type="text" name="email" id="email" size="30" value="" placeholder="Digite seu email novamente">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="password">Senha:</label>
+                </th>
+                <th>
+                    <input type="password" name="senha" id="senha" value="" placeholder="Informe sua senha">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="idade">Idade:</label>
+                </th>
+                <th>
+                    <input type="number" name="idade" id="idade" value="" placeholder="">    
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="text">Deixe um comentário</label>
+                </th>
+                <th>
+                    <textarea name="comentário" cols="30" rows="5" required ></textarea>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="text">Materia de Interesse</label>
+                    <ul type="none">
+                        <li><input type="checkbox" name="materias"> BackEnd</li>
+                        <li><input type="checkbox" name="materias"> FrontEnd</li>
+                        <li><input type="checkbox" name="materias"> FullStack</li>
+                    </ul>
+                </td>
+                <td>
+                    <label for="text">Tipo de Viagem</label>
+                    <ul type="none">
+                        <li><input type="radio" name="viagem" value="viagem"> Negócios</li>
+                        <li><input type="radio" name="viagem" value="viagem"> Lazer</li>
+                        <li><input type="radio" name="viagem" value="viagem"> Turismo</li>
+                        <li><input type="radio" name="viagem" value="viagem"> Acadêmico</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nome">Esporte Favorito</label>
+                    <select name="esportes" id="esportes">
+                        <option value=""> </option>
+                        <option value="Futebol">Futebol</option>
+                        <option value="Basquete">Basquete</option>
+                        <option value="Vôlei">Vôlei</option>
+                        <option value="Tênis">Tênis</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="name">Investimentos</label>
+                    <select name="investimentos" id="investimentos">
+                        <option value=""> </option>
+                        <option value="Poupança">Poupança</option>
+                        <option value="">CDB</option>
+                        <option value="Tesouro Direto">Tesouro Direto</option>
+                        <option value="Fundos Imobiliarios">Fundos Imobiliários</option>
+                        <option value="CDI">CDI</option>
+                        <option value="DEBÊNTURES">DEBÊNTURES</option>
+                        <option value=""CriptoMoedas></option>
+                        <option value="Ações">Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Escolha uma Cor:</label>
+                    <select name="cor" id="cor">
+                        <option value="cor"></option>
+                        <option value="cor"></option>
+                    </select>
+                </td>
+                <td>
+                    <label for="name">Selecione um arquivo:</label>
+                    <input type="button" value="arquivo"> Nenhum Arquivo Escolhido
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="data">Data e Hora envio:</label>
+                    <input type="datetime-local" name="dtlocal" id="dt-local">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+                <td>
+                    <input type="reset">
+                </td>
+            </tr>
+        </tfoot>
+        
+    </table>
+    <br>
 
 </body>
 </html>
