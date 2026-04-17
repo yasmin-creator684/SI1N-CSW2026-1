@@ -1,0 +1,17 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: brown;
+}
+h1{
+    font-size: large;
+    color: coral;
+}
+h2{
+    font-size: medium;
+    color: bisque;
+}
+p{
+    font-size: smaller;
+}
