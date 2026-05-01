@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+}
+.selector{
+    display: inline-block;
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+.secondselector{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    text-align: justify;
+}
+#titulo{
+    color: cornflowerblue;
+    font-size: x-large;
+}
+#notitle{
+    color: darkslateblue;
+    font-size: xx-large;
+}
+.selector:hover > p{
+    font-size: x-large;
+    background-color: rgb(0, 238, 255);
+}
+.secondselector:active > a{
+    font-size: x-large;
+    background-color: rgb(255, 0, 0);
+}
+a::before{
+    content: '*';
+    content: '&#127925;';
+}
+a::after{
+    content: '*';
+}
